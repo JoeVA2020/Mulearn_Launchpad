@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.s8zwC7l5N2AKJZrOno8atgHaEK&pid=Api&P=0&h=180);
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color:rgba(0, 0, 0,.0.5);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0);
+  }
+  h1, h2, p {
+    margin-bottom: 20px;
+  }
+  p,li{
+    color: #fff;
+  }
+  .cta-button {
+    display: inline-block;
+    background-color: #ff7b00;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .section {
+    margin-bottom: 30px;
+    background-color: #494747;
+    padding: 20px;
+    border-radius: 8px;
+    border: solid 1px #878787;
+  }
+  .section-title {
+    color: #ff7b00;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .update-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .update-list li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+  .update-list li:before {
+    content: "\2022";
+    color: #ff7b00;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+  }
